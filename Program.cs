@@ -18,7 +18,7 @@ namespace Exercício_individual___Tema_Banco
             Console.Write("HAVERÁ DEPOSITO INICIAL (S/N): ");
             conta.depositoInicial = Console.ReadLine();
 
-            if(conta.depositoInicial == "S") //usar APENAS S ou N maisculo
+            if(conta.depositoInicial == "S") //usar APENAS S ou N maiusculo
             {
                 Console.Write("ENTRE O VALOR DE DEPÓSITO INICIAL: ");
                 conta.saldo = float.Parse(Console.ReadLine());
